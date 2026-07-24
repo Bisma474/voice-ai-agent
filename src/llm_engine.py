@@ -146,7 +146,7 @@ class LLMEngine:
 
         # ── 5. Fast local shortcuts (offline safety net) ───────────────────────────
         if "weather" in prompt_lower or "forecast" in prompt_lower:
-            return "The current weather is clear and 72°F."
+            return "I don't have any weather info right now."
         if "time" in prompt_lower or "clock" in prompt_lower:
             return f"The current time is {datetime.datetime.now().strftime('%I:%M %p')}."
         if "date" in prompt_lower or "what day" in prompt_lower:
