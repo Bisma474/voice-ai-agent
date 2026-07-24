@@ -46,8 +46,8 @@ WEB_DIR = Path(__file__).parent.parent / "web"
 # ── API Keys ──
 # Groq is blocked by Cloudflare (error 1010) on this network/IP.
 # Key is valid — uncomment below when using a VPN or different network:
-# os.environ.setdefault("GROQ_API_KEY", "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")
-os.environ.setdefault("GEMINI_API_KEY", "AQ.Ab8RN6IoolpxmonatIpH2hbIq2fxxaKI4bVa7FAb86qRhTGrag")
+os.environ.setdefault("GROQ_API_KEY", "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")
+os.environ.setdefault("GEMINI_API_KEY", "AQ.Ab8RN6L9QuErLEhKUYaDc0utcRtwHgL5WGI-iC7r7IoW_hnDpQ")
 
 
 
