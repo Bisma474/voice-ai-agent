@@ -82,7 +82,8 @@ class LLMEngine:
                     data=payload,
                     headers={
                         "Authorization": f"Bearer {groq_key}",
-                        "Content-Type":  "application/json"
+                        "Content-Type":  "application/json",
+                        "User-Agent":    "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
                     }
                 )
                 with urllib.request.urlopen(req, timeout=10.0) as resp:
